@@ -36,3 +36,8 @@ That's it. You should be able to test it with
 - Self-restart if down
 - Nothing fancy, no SSL
 - Configured to work in VS Code via devcontainer.json
+
+## Python Requirements
+
+- psycopg2: pip install psycopg2
+- dotenv: pip install python-dotenv
