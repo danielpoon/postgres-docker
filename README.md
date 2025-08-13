@@ -31,7 +31,8 @@ That's it. You should be able to test it with
 
 ## The Details
 
-- We're using Postgres 17 using default port 5432
+- We're using Postgres 17, default port 5432
 - Database data mapped to : /var/lib/postgresql/data
 - Self-restart if down
 - Nothing fancy, no SSL
+- Configured to work in VS Code via devcontainer.json
