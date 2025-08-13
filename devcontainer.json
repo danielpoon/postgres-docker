@@ -1,0 +1,21 @@
+{
+  "name": "Postgres Development",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "postgres",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "ms-vscode.vscode-postgresql",
+    "ms-python.python"
+  ],
+  "settings": {
+    "postgresql.connections": [
+      {
+        "host": "localhost",
+        "port": 5432,
+        "database": "gattaca_db",
+        "user": "${env:POSTGRES_USER}",
+        "password": "${env:POSTGRES_PASSWORD}"
+      }
+    ]
+  }
+}
