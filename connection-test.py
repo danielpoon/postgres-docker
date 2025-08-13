@@ -7,7 +7,7 @@ load_dotenv()
 
 # Database connection parameters
 db_params = {
-    "dbname": "gattaca_db",
+    "dbname": "sample_db",
     "user": os.getenv("POSTGRES_USER"),
     "password": os.getenv("POSTGRES_PASSWORD"),
     "host": "postgres-app",
