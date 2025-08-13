@@ -35,7 +35,7 @@ try:
     inserted_id = cursor.fetchone()[0]
     print(f"Inserted test record with ID: {inserted_id}")
     
-    # Commit changes
+    # This is to ensure changes are saved
     conn.commit()
     
 except psycopg2.Error as e:
